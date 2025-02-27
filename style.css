@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Outfit; sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89A8B2;
+    text-align: center;
+}
+
+/* Profile Header */
+h1 {
+    font-size: 2.5em;
+    color: #B3C8CF;
+    margin-top: 20px;
+}
+
+/* Profile Image */
+img {
+    width: 200px;
+    height: 360px;
+    border-radius: 30%;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    color: #E5E1DA;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+/* Headline */
+h2 {
+    color: #F1F0E8;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+/* Social Media Links */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #4C585B; /* LinkedIn blue */
+}
+
+/* LinkedIn Button */
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    background: #E5E1DA;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: #005582;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    p {
+        font-size: 1em;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
